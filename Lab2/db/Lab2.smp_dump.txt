@@ -1,0 +1,7 @@
+
+State Machine - |Lab2|present_state
+Name present_state.Go present_state.Set present_state.Ready present_state.Idle 
+present_state.Idle 0 0 0 0 
+present_state.Ready 0 0 1 1 
+present_state.Set 0 1 0 1 
+present_state.Go 1 0 0 1 

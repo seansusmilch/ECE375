@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity counter is
+	port(
+		reset, clock: in std_logic;
+		count: out std_logic_vector(7 downto 0)
+		);
+end counter;
+
+architecture counter_logic of counter is
+	signal counter_next: std_logic_vector(7 downto 0);
+
+begin
+	process(clock) begin
+		if(rising_edge(clock)) then
+			if(reset='1') then
+				counter_next <= x"0";
+			else
+				counter_next <= counter_next + x"1";
+			end if;
+		end if;
+	end process;
+	
+	count <= counter_next;
+end architecture;

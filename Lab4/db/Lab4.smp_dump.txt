@@ -1,0 +1,12 @@
+
+State Machine - |Lab4|present_state
+Name present_state.P8 present_state.P7 present_state.P6 present_state.P5 present_state.P4 present_state.P3 present_state.P2 present_state.P1 present_state.P0 
+present_state.P0 0 0 0 0 0 0 0 0 0 
+present_state.P1 0 0 0 0 0 0 0 1 1 
+present_state.P2 0 0 0 0 0 0 1 0 1 
+present_state.P3 0 0 0 0 0 1 0 0 1 
+present_state.P4 0 0 0 0 1 0 0 0 1 
+present_state.P5 0 0 0 1 0 0 0 0 1 
+present_state.P6 0 0 1 0 0 0 0 0 1 
+present_state.P7 0 1 0 0 0 0 0 0 1 
+present_state.P8 1 0 0 0 0 0 0 0 1 

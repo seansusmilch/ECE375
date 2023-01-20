@@ -1,0 +1,66 @@
+# Reading pref.tcl
+# do Lab3_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/Lab3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:08:18 on Oct 31,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/Lab3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Lab3
+# -- Compiling architecture Lab3_arch of Lab3
+# End time: 13:08:18 on Oct 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/regN.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:08:18 on Oct 31,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/regN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity regN
+# -- Compiling architecture regN_arch of regN
+# End time: 13:08:19 on Oct 31,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/tristateN.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:08:19 on Oct 31,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/tristateN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tristateN
+# -- Compiling architecture tristate_arch of tristateN
+# End time: 13:08:19 on Oct 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.lab3
+# vsim work.lab3 
+# Start time: 13:09:37 on Oct 31,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.lab3(lab3_arch)
+# Loading work.regn(regn_arch)
+# Loading work.tristaten(tristate_arch)
+do {C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/simulation/modelsim/wave.do}
+# .main_pane.wave.interior.cs.body.pw.wf
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+# 1
+# 1
+# 1
+# 1
+run
+# End time: 13:11:24 on Oct 31,2022, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 0
+wave editwrite -file {C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/simulation/modelsim/wave.do}

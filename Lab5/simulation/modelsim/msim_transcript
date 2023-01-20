@@ -1,0 +1,116 @@
+# Reading pref.tcl
+# do Lab4_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux2to1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:18:34 on Dec 09,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux2to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2to1
+# -- Compiling architecture LogicFunc of mux2to1
+# End time: 09:18:35 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/components.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:18:35 on Dec 09,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling package components
+# End time: 09:18:35 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux4to1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:18:35 on Dec 09,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux4to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package components
+# -- Compiling entity mux4to1
+# -- Compiling architecture struc_behaviour of mux4to1
+# End time: 09:18:35 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/Lab5.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:18:35 on Dec 09,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/Lab5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package components
+# -- Compiling entity Lab5
+# -- Compiling architecture Lab5_arch of Lab5
+# End time: 09:18:35 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux8to1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:18:35 on Dec 09,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux8to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package components
+# -- Compiling entity mux8to1
+# -- Compiling architecture struc_behaviour of mux8to1
+# End time: 09:18:35 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.lab5
+# vsim work.lab5 
+# Start time: 09:22:25 on Dec 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.components
+# Loading work.lab5(lab5_arch)
+# Loading work.mux8to1(struc_behaviour)
+# Loading work.mux4to1(struc_behaviour)
+# Loading work.mux2to1(logicfunc)
+do {C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/simulation/modelsim/wave.do}
+# .main_pane.wave.interior.cs.body.pw.wf
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+# 1
+# 1
+# 1
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /lab5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /lab5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /lab5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /lab5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /lab5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /lab5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /lab5
+# End time: 09:40:08 on Dec 09,2022, Elapsed time: 0:17:43
+# Errors: 0, Warnings: 7

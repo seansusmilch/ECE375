@@ -1,0 +1,8 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Lab2 is
+	port(
+		reset, clock: in std_logic;
+		red, yellow, green: out std_logic
+	);

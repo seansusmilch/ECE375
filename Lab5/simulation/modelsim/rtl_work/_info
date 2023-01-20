@@ -1,0 +1,219 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/simulation/modelsim
+Pcomponents
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+w1670266952
+R0
+8C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/components.vhd
+FC:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/components.vhd
+l0
+L5 1
+VcE7L23Xaj=i]z_hi35@Ug3
+!s100 KS;<RJ;bMhONV0YhbDOb31
+Z5 OV;C;2020.1;71
+31
+Z6 !s110 1670599115
+!i10b 1
+Z7 !s108 1670599115.000000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/components.vhd|
+!s107 C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/components.vhd|
+!i113 1
+Z8 o-93 -work work
+Z9 tExplicit 1 CvgOpt 0
+Elab5
+Z10 w1670270108
+R2
+Z11 DPx4 work 10 components 0 22 cE7L23Xaj=i]z_hi35@Ug3
+R1
+Z12 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R3
+R4
+!i122 3
+R0
+Z13 8C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/Lab5.vhd
+Z14 FC:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/Lab5.vhd
+l0
+L6 1
+V8PZe6@RQMb<zUa:kmbbGj3
+!s100 U4Nfc<8S14>4_H7>nKPPi1
+R5
+31
+R6
+!i10b 1
+R7
+Z15 !s90 -reportprogress|300|-93|-work|work|C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/Lab5.vhd|
+Z16 !s107 C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/Lab5.vhd|
+!i113 1
+R8
+R9
+Alab5_arch
+R2
+R11
+R1
+R12
+R3
+R4
+DEx4 work 4 lab5 0 22 8PZe6@RQMb<zUa:kmbbGj3
+!i122 3
+l37
+L14 130
+V3fEj7;VjUY?BL?=:d9iEU3
+!s100 V<H2O[kbz8m=KemE[9GET2
+R5
+31
+R6
+!i10b 1
+R7
+R15
+R16
+!i113 1
+R8
+R9
+Emux2to1
+Z17 w1667847734
+R3
+R4
+!i122 0
+R0
+Z18 8C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux2to1.vhd
+Z19 FC:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux2to1.vhd
+l0
+L8 1
+VnBzX^Ac9JnKf^^`>i4M821
+!s100 NMCR7lPR[>Rh9I2KOcEaR2
+R5
+31
+R6
+!i10b 1
+Z20 !s108 1670599114.000000
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux2to1.vhd|
+Z22 !s107 C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux2to1.vhd|
+!i113 1
+R8
+R9
+Alogicfunc
+R3
+R4
+DEx4 work 7 mux2to1 0 22 nBzX^Ac9JnKf^^`>i4M821
+!i122 0
+l17
+L15 14
+VK9J5]g0ZNnBU>YLNAaKIh0
+!s100 RoR=95B^aL9lGQQ24cM2A2
+R5
+31
+R6
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R8
+R9
+Emux4to1
+Z23 w1668452482
+R1
+R2
+R11
+R3
+R4
+!i122 2
+R0
+Z24 8C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux4to1.vhd
+Z25 FC:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux4to1.vhd
+l0
+L6 1
+V@8XY;bhVLTK2IHQ[C1GQ62
+!s100 ;J4N95jbNnnM5K6eZo[oH3
+R5
+31
+R6
+!i10b 1
+R7
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux4to1.vhd|
+Z27 !s107 C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux4to1.vhd|
+!i113 1
+R8
+R9
+Astruc_behaviour
+R1
+R2
+R11
+R3
+R4
+DEx4 work 7 mux4to1 0 22 @8XY;bhVLTK2IHQ[C1GQ62
+!i122 2
+l19
+Z28 L15 9
+VCViWkBJEikHJXildn9VPI3
+!s100 JWe7X=QNmMMc6ngkg1aR[0
+R5
+31
+R6
+!i10b 1
+R7
+R26
+R27
+!i113 1
+R8
+R9
+Emux8to1
+Z29 w1669663123
+R1
+R2
+R11
+R3
+R4
+!i122 4
+R0
+Z30 8C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux8to1.vhd
+Z31 FC:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux8to1.vhd
+l0
+L6 1
+VROWUg3YSi[dnK=haaEcJ_3
+!s100 j=4[@NzM<UKQZDJ1eRH=;2
+R5
+31
+R6
+!i10b 1
+R7
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux8to1.vhd|
+!s107 C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux8to1.vhd|
+!i113 1
+R8
+R9
+Astruc_behaviour
+R1
+R2
+R11
+R3
+R4
+DEx4 work 7 mux8to1 0 22 ROWUg3YSi[dnK=haaEcJ_3
+!i122 4
+l19
+R28
+Vo[ZFo=m>i2WS<P00niKi_3
+!s100 2OGVQBYiKnP5K[8TcPkG01
+R5
+31
+R6
+!i10b 1
+R7
+R32
+Z33 !s107 C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab5/mux8to1.vhd|
+!i113 1
+R8
+R9

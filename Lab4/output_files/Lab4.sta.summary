@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'clock'
+Slack : -3.966
+TNS   : -31.655
+
+Type  : Slow 1200mV 125C Model Setup 'present_state.P8'
+Slack : -1.694
+TNS   : -12.334
+
+Type  : Slow 1200mV 125C Model Hold 'present_state.P8'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'clock'
+Slack : 0.410
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -41.662
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'present_state.P8'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Setup 'clock'
+Slack : -3.388
+TNS   : -25.418
+
+Type  : Slow 1200mV -40C Model Setup 'present_state.P8'
+Slack : -1.248
+TNS   : -10.530
+
+Type  : Slow 1200mV -40C Model Hold 'present_state.P8'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'clock'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -36.410
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'present_state.P8'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Setup 'clock'
+Slack : -1.264
+TNS   : -7.231
+
+Type  : Fast 1200mV -40C Model Setup 'present_state.P8'
+Slack : -0.233
+TNS   : -0.321
+
+Type  : Fast 1200mV -40C Model Hold 'clock'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'present_state.P8'
+Slack : 0.229
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -30.633
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'present_state.P8'
+Slack : 0.356
+TNS   : 0.000
+
+------------------------------------------------------------

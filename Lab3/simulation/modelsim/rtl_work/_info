@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/simulation/modelsim
+Elab3
+Z1 w1667237909
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/Lab3.vhd
+Z5 FC:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/Lab3.vhd
+l0
+L4 1
+Vc=HXzJNm3[M@kmj1HYddX3
+!s100 PeK?XiOYI=R2d<4a[VFf12
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1667239698
+!i10b 1
+Z8 !s108 1667239698.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/Lab3.vhd|
+Z10 !s107 C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/Lab3.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Alab3_arch
+R2
+R3
+DEx4 work 4 lab3 0 22 c=HXzJNm3[M@kmj1HYddX3
+!i122 0
+l40
+L16 107
+VDkJb2B<SMOJRmbg>A@>X?0
+!s100 VT9SWfJEhSV_NYIV401V]1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eregn
+Z13 w1666637417
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/regN.vhd
+Z15 FC:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/regN.vhd
+l0
+L5 1
+VDzZ;:Pd>XSi1X^e@`ScgR1
+!s100 VMfjRAFE[g<eLT5=A1c<83
+R6
+31
+Z16 !s110 1667239699
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/regN.vhd|
+Z18 !s107 C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/regN.vhd|
+!i113 1
+R11
+R12
+Aregn_arch
+R2
+R3
+DEx4 work 4 regn 0 22 DzZ;:Pd>XSi1X^e@`ScgR1
+!i122 1
+l15
+L15 9
+VWDP=b]DEXUWT8`UoV6@C40
+!s100 ^bo]5==fFVGV`?h87iPgZ1
+R6
+31
+R16
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Etristaten
+Z19 w1666634105
+R2
+R3
+!i122 2
+R0
+Z20 8C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/tristateN.vhd
+Z21 FC:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/tristateN.vhd
+l0
+L5 1
+VXK?FL_ecaz[=XK:RNRf273
+!s100 Y6gL_a]7zQ2;<TMlkN[0>1
+R6
+31
+R16
+!i10b 1
+Z22 !s108 1667239699.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/tristateN.vhd|
+!s107 C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/tristateN.vhd|
+!i113 1
+R11
+R12
+Atristate_arch
+R2
+R3
+DEx4 work 9 tristaten 0 22 XK?FL_ecaz[=XK:RNRf273
+!i122 2
+l14
+L14 3
+VT^:3=m^EUB<k1K3Ol2Y[m2
+!s100 k]TbN?l_]^g6[N3:ZD:D>1
+R6
+31
+R16
+!i10b 1
+R22
+R23
+Z24 !s107 C:/Users/seant/Nextcloud/Documents/School/2022 Fall/ECE 375 Digital Design 2/Labs/Lab3/tristateN.vhd|
+!i113 1
+R11
+R12

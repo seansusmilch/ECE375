@@ -1,0 +1,257 @@
+|Lab3
+clock => regN:reg0.clock
+clock => ren3.CLK
+clock => ren2.CLK
+clock => ren1.CLK
+clock => ren0.CLK
+clock => tri3.CLK
+clock => tri2.CLK
+clock => tri1.CLK
+clock => tri0.CLK
+clock => regN:reg1.clock
+clock => regN:reg2.clock
+clock => regN:reg3.clock
+Ld => ren0.OUTPUTSELECT
+Ld => ren1.OUTPUTSELECT
+Ld => ren2.OUTPUTSELECT
+Ld => ren3.OUTPUTSELECT
+ReadAddr[0] => Mux0.IN5
+ReadAddr[0] => Mux1.IN5
+ReadAddr[0] => Mux2.IN5
+ReadAddr[0] => Mux3.IN5
+ReadAddr[1] => Mux0.IN4
+ReadAddr[1] => Mux1.IN4
+ReadAddr[1] => Mux2.IN4
+ReadAddr[1] => Mux3.IN4
+WriteAddr[0] => Mux4.IN5
+WriteAddr[0] => Mux5.IN5
+WriteAddr[0] => Mux6.IN5
+WriteAddr[0] => Mux7.IN5
+WriteAddr[1] => Mux4.IN4
+WriteAddr[1] => Mux5.IN4
+WriteAddr[1] => Mux6.IN4
+WriteAddr[1] => Mux7.IN4
+Memin[0] => regN:reg0.D[0]
+Memin[0] => regN:reg1.D[0]
+Memin[0] => regN:reg2.D[0]
+Memin[0] => regN:reg3.D[0]
+Memin[1] => regN:reg0.D[1]
+Memin[1] => regN:reg1.D[1]
+Memin[1] => regN:reg2.D[1]
+Memin[1] => regN:reg3.D[1]
+Memin[2] => regN:reg0.D[2]
+Memin[2] => regN:reg1.D[2]
+Memin[2] => regN:reg2.D[2]
+Memin[2] => regN:reg3.D[2]
+Memin[3] => regN:reg0.D[3]
+Memin[3] => regN:reg1.D[3]
+Memin[3] => regN:reg2.D[3]
+Memin[3] => regN:reg3.D[3]
+Memin[4] => regN:reg0.D[4]
+Memin[4] => regN:reg1.D[4]
+Memin[4] => regN:reg2.D[4]
+Memin[4] => regN:reg3.D[4]
+Memin[5] => regN:reg0.D[5]
+Memin[5] => regN:reg1.D[5]
+Memin[5] => regN:reg2.D[5]
+Memin[5] => regN:reg3.D[5]
+Memout[0] <= Memout[0].DB_MAX_OUTPUT_PORT_TYPE
+Memout[1] <= Memout[1].DB_MAX_OUTPUT_PORT_TYPE
+Memout[2] <= Memout[2].DB_MAX_OUTPUT_PORT_TYPE
+Memout[3] <= Memout[3].DB_MAX_OUTPUT_PORT_TYPE
+Memout[4] <= Memout[4].DB_MAX_OUTPUT_PORT_TYPE
+Memout[5] <= Memout[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab3|regN:reg0
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+clock => Q[4]~reg0.CLK
+clock => Q[5]~reg0.CLK
+en => Q[0]~reg0.ENA
+en => Q[1]~reg0.ENA
+en => Q[2]~reg0.ENA
+en => Q[3]~reg0.ENA
+en => Q[4]~reg0.ENA
+en => Q[5]~reg0.ENA
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab3|tristateN:t0
+enable => output[0].OE
+enable => output[1].OE
+enable => output[2].OE
+enable => output[3].OE
+enable => output[4].OE
+enable => output[5].OE
+input[0] => output[0].DATAIN
+input[1] => output[1].DATAIN
+input[2] => output[2].DATAIN
+input[3] => output[3].DATAIN
+input[4] => output[4].DATAIN
+input[5] => output[5].DATAIN
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output[4].DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab3|regN:reg1
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+clock => Q[4]~reg0.CLK
+clock => Q[5]~reg0.CLK
+en => Q[0]~reg0.ENA
+en => Q[1]~reg0.ENA
+en => Q[2]~reg0.ENA
+en => Q[3]~reg0.ENA
+en => Q[4]~reg0.ENA
+en => Q[5]~reg0.ENA
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab3|tristateN:t1
+enable => output[0].OE
+enable => output[1].OE
+enable => output[2].OE
+enable => output[3].OE
+enable => output[4].OE
+enable => output[5].OE
+input[0] => output[0].DATAIN
+input[1] => output[1].DATAIN
+input[2] => output[2].DATAIN
+input[3] => output[3].DATAIN
+input[4] => output[4].DATAIN
+input[5] => output[5].DATAIN
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output[4].DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab3|regN:reg2
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+clock => Q[4]~reg0.CLK
+clock => Q[5]~reg0.CLK
+en => Q[0]~reg0.ENA
+en => Q[1]~reg0.ENA
+en => Q[2]~reg0.ENA
+en => Q[3]~reg0.ENA
+en => Q[4]~reg0.ENA
+en => Q[5]~reg0.ENA
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab3|tristateN:t2
+enable => output[0].OE
+enable => output[1].OE
+enable => output[2].OE
+enable => output[3].OE
+enable => output[4].OE
+enable => output[5].OE
+input[0] => output[0].DATAIN
+input[1] => output[1].DATAIN
+input[2] => output[2].DATAIN
+input[3] => output[3].DATAIN
+input[4] => output[4].DATAIN
+input[5] => output[5].DATAIN
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output[4].DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab3|regN:reg3
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+clock => Q[2]~reg0.CLK
+clock => Q[3]~reg0.CLK
+clock => Q[4]~reg0.CLK
+clock => Q[5]~reg0.CLK
+en => Q[0]~reg0.ENA
+en => Q[1]~reg0.ENA
+en => Q[2]~reg0.ENA
+en => Q[3]~reg0.ENA
+en => Q[4]~reg0.ENA
+en => Q[5]~reg0.ENA
+D[0] => Q[0]~reg0.DATAIN
+D[1] => Q[1]~reg0.DATAIN
+D[2] => Q[2]~reg0.DATAIN
+D[3] => Q[3]~reg0.DATAIN
+D[4] => Q[4]~reg0.DATAIN
+D[5] => Q[5]~reg0.DATAIN
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab3|tristateN:t3
+enable => output[0].OE
+enable => output[1].OE
+enable => output[2].OE
+enable => output[3].OE
+enable => output[4].OE
+enable => output[5].OE
+input[0] => output[0].DATAIN
+input[1] => output[1].DATAIN
+input[2] => output[2].DATAIN
+input[3] => output[3].DATAIN
+input[4] => output[4].DATAIN
+input[5] => output[5].DATAIN
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output[4].DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output[5].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,8 @@
+
+State Machine - |Lab5|present_state
+Name present_state.P3 present_state.P2 present_state.P1 present_state.P0 present_state.Idle 
+present_state.Idle 0 0 0 0 0 
+present_state.P0 0 0 0 1 1 
+present_state.P1 0 0 1 0 1 
+present_state.P2 0 1 0 0 1 
+present_state.P3 1 0 0 0 1 
